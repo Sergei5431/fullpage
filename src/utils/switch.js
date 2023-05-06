@@ -2,30 +2,25 @@ const button = document.querySelector('.wrapper-switch__button')
 const number = document.querySelector('.wrapper-content__number')
 const topic = document.querySelector('.wrapper-content__topic')
 const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.<br/>'
-
-let count = 1
-
-
 const allText = document.querySelector('.wrapper-content__text')
 const placeText = document.querySelector('.wrapper-content__texts')
+let count = 1
 
-console.log(5)
-
-function switchTopic(){
-if(count > 1){
-	topic.textContent = 'Lorem ipsum!'
+function switchTopic() {
+	if (count > 1) {
+		topic.textContent = 'Lorem ipsum!'
+	}
 }
-}
 
-function switchScroll(){
+function switchScroll() {
 	placeText.classList.remove('wrapper-content__texts--hidden')
-	if(count >= 3){
+	if (count >= 3) {
 		placeText.classList.add('wrapper-content__texts--hidden')
 	}
 }
 
 function toggle() {
-	
+
 	if (count === 6) {
 		const noActive = document.querySelector(`[data-value='${count}']`)
 		noActive.classList.remove('wrapper-switch__line--active')
@@ -35,10 +30,10 @@ function toggle() {
 		active.classList.add('wrapper-switch__line--active')
 		number.textContent = '0' + count
 		let texts = text
-		allText.innerHTML=`
+		allText.innerHTML = `
 		${texts} 
 		`
-		
+
 	} else {
 		const noActive = document.querySelector(`[data-value='${count}']`)
 		noActive.classList.remove('wrapper-switch__line--active')
@@ -47,10 +42,10 @@ function toggle() {
 		active.classList.add('wrapper-switch__line--active')
 		number.textContent = '0' + count
 		let texts = text
-		for(let i=1; i<count; i++){
+		for (let i = 1; i < count; i++) {
 			texts = texts + text
 		}
-		allText.innerHTML=`
+		allText.innerHTML = `
 		${texts} 
 		`
 		console.log(allText)

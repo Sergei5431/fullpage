@@ -1,49 +1,49 @@
 @import url(./mixin.scss);
 
-.wrapper-img{
+.wrapper-img {
     margin-left: 164px;
-    
+
 }
 
-.wrapper-img__img{
+.wrapper-img__img {
     width: 517px;
     height: 800px;
     position: relative;
     background-image: url(../assets/img/blog.png);
-    
+
 }
 
-.wrapper-img__effect{
+.wrapper-img__effect {
     width: 517px;
     height: 117px;
     background: rgba(255, 255, 255, 0.3);
-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     position: absolute;
     bottom: 0;
     @include flex-center
 }
 
-.wrapper-img__title{
+.wrapper-img__title {
     font-size: 28px;
-line-height: 34px;
-color: #FFFFFF;
+    line-height: 34px;
+    color: #FFFFFF;
 }
 
 
-.wrapper-img__networ{
+.wrapper-img__networ {
     display: flex;
     justify-content: space-around;
 }
 
-.wrapper-img__list{
+.wrapper-img__list {
     margin-top: 163px;
     list-style-type: none;
-    
+
 }
 
-.wrapper-img__link{
+.wrapper-img__link {
     text-decoration: none;
     font-size: 14px;
-line-height: 17px;
+    line-height: 17px;
     color: $color-black;
 }

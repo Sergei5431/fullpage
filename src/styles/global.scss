@@ -1,4 +1,3 @@
-
 @import url(./mixin.scss);
 
 @font-face {
@@ -35,25 +34,25 @@ html {
 
 .container {
     width: 1920px;
-   background-color:$color-container;
+    background-color: $color-container;
     display: flex;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
 
-.cross{
+.cross {
     width: 145px;
     height: 145px;
     position: absolute;
 }
 
-.cross-bottom{
+.cross-bottom {
     bottom: -44px;
     left: 1117px;
 }
 
-.cross-middle{
+.cross-middle {
     bottom: 327px;
     left: 1508px;
 }
@@ -62,4 +61,3 @@ html {
     bottom: 700px;
     left: 1847px;
 }
-

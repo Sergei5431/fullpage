@@ -9,7 +9,7 @@
 .wrapper-switch__text {
     font-style: normal;
     font-size: 30px;
-line-height: 36px;
+    line-height: 36px;
     color: #050215;
     margin-top: 57px;
 }
@@ -28,14 +28,14 @@ line-height: 36px;
 
 .wrapper-switch__line {
     width: 4px;
-    height:40px;
+    height: 40px;
     background: $color-gray;
     border-radius: 2px;
 }
 
 .wrapper-switch__line-long {
     width: 4px;
-    height:240px;
+    height: 240px;
     background: $color-gray;
     border-radius: 2px;
     position: absolute;
@@ -43,18 +43,18 @@ line-height: 36px;
     bottom: 65px;
 }
 
-.wrapper-switch__line--active{
+.wrapper-switch__line--active {
     background-color: $color-brown;
     z-index: 2;
 }
 
-.wrapper-line{
+.wrapper-line {
     margin-top: 267px;
     @include column-center;
-    position:relative
+    position: relative
 }
 
-.wrapper-switch__button{
+.wrapper-switch__button {
     width: 58px;
     height: 79px;
     border-radius: 29px;
@@ -64,4 +64,3 @@ line-height: 36px;
     border: 2px solid $color-brown;
     cursor: pointer;
 }
-

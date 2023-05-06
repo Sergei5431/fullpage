@@ -4,6 +4,6 @@ import './styles/switch.scss';
 import './styles/picture.scss';
 import './styles/content.scss';
 
-import { button, toggle } from './utils/switch';
+import { toggle } from './utils/switch';
 
 
