@@ -1,0 +1,65 @@
+
+@import url(./mixin.scss);
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../assets/fonts/Barlow-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../assets/fonts/Barlow-Medium.ttf');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../assets/fonts/Barlow-SemiBold.ttf');
+    font-weight: 600;
+    font-display: swap;
+}
+
+html {
+    background-color: $color-gray;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: barlow, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    width: 1920px;
+   background-color:$color-container;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.cross{
+    width: 145px;
+    height: 145px;
+    position: absolute;
+}
+
+.cross-bottom{
+    bottom: -44px;
+    left: 1117px;
+}
+
+.cross-middle{
+    bottom: 327px;
+    left: 1508px;
+}
+
+.cross-up {
+    bottom: 700px;
+    left: 1847px;
+}
+

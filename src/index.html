@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ESSENTIAL -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GENERAL -->
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <!-- prettier-ignore -->
+    <link rel="manifest" href=<%=htmlWebpackPlugin.options.manifest %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="icon" sizes="192x192" href=<%=htmlWebpackPlugin.options.icon192 %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="icon" sizes="512x512" href=<%=htmlWebpackPlugin.options.icon512 %>
+    />
+
+    <!-- GOOGLE -->
+    <meta name="rating" content="General" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- iOS -->
+    <!-- prettier-ignore -->
+    <link rel="apple-touch-icon" href=<%=htmlWebpackPlugin.options.icon512 %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="mask-icon" href=<%=htmlWebpackPlugin.options.icon512 %>
+    color="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- ANDROID -->
+    <meta name="theme-color" content="#000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+</head>
+
+<body>
+    <noscript class="text-center text-lg text-red-500">
+        Enable JavaScript to enjoy all the features of this app.
+    </noscript>
+    <div class="container">
+        <div class="cross cross-bottom">
+            <img src="./assets/img/cross.png" alt="cross">
+        </div>
+        <div class="cross cross-middle">
+            <img src="./assets/img/cross.png" alt="cross">
+        </div>
+        <div class="cross cross-up">
+            <img src="./assets/img/cross.png" alt="cross">
+        </div>
+        <div class="wrapper-switch">
+            <h3 class="wrapper-switch__text">Kasmir</h3>
+            <div class="wrapper-line">
+                <h2 class="wrapper-switch__numbers">01</h2> 
+                <div class="wrapper-switch__line-long"></div>
+                <div class="wrapper-switch__line wrapper-switch__line--active" data-value="1"></div>
+                <div class="wrapper-switch__line" data-value="2"></div>
+                <div class="wrapper-switch__line" data-value="3"></div>
+                <div class="wrapper-switch__line" data-value="4"></div>
+                <div class="wrapper-switch__line" data-value="5"></div>
+                <div class="wrapper-switch__line" data-value="6"></div>
+                <h2 class="wrapper-switch__numbers" data-value="1">06</h2>
+                
+            </div>
+            <button class="wrapper-switch__button">
+                <img src="./assets/img/Arrow 1.png" alt="">
+            </button>
+        </div>
+        <div class="wrapper-img">
+            <div class="wrapper-img__img">
+                <div class="wrapper-img__effect">
+                    <p class="wrapper-img__title">The Best Hair Style 2021</p>
+                 </div>
+                <img src="./assets/img/blog.png" alt="img">
+            </div>
+             <ul class="wrapper-img__networ">
+                <li class="wrapper-img__list"><a href="https://ru-ru.facebook.com/" class="wrapper-img__link">FACEBOOK</a></li>
+                <li class="wrapper-img__list"><a href="https://www.instagram.com/" class="wrapper-img__link">INSTAGRAM</a></li>
+                <li class="wrapper-img__list"><a href="https://twitter.com/" class="wrapper-img__link">TWITTER</a></li>
+            </ul>             
+        </div>
+        <div class="wrapper-content">
+            <ul class="wrapper-content__nav">
+                <li class="wrapper-content__list wrapper-content__list--indent"><a href="#" class="wrapper-content__link">Home</a></li>
+                <li class="wrapper-content__list wrapper-content__list--indent"><a href="#" class="wrapper-content__link">Style Hair</a></li>
+                <li class="wrapper-content__list wrapper-content__list--indent"><a href="#" class="wrapper-content__link">Models</a></li>
+                <li class="wrapper-content__list wrapper-content__list--indent"><a href="#" class="wrapper-content__link">Shop</a></li>
+                <li class="wrapper-content__list wrapper-content__list--indent"><a href="#" class="wrapper-content__link">Contact</a></li>
+                <li class="wrapper-content__list wrapper-content__list--last"><a href="#" class="wrapper-content__link"><img src="./assets/img/Group2.png" alt="basket"></a></li>
+            </ul>
+            <div class="wrapper-content__title">
+                <h1 class="wrapper-content__topic">Lorem ipsum dolor sit amet!</h1>
+            </div>
+            <div class="wrapper-content__texts">
+                <p class="wrapper-content__text" cols="80" rows="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non felis non at tristique. Est ante magna diam magna pharetra. Turpis sagittis consectetur est, integer sed. Sagittis malesuada tellus diam sapien platea.<br></p>
+                <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+            </div>
+            <button class="wrapper-content__button"><span class="wrapper-content__button-text">Shopping Now</span></button>
+            <p class="wrapper-content__number">01</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
